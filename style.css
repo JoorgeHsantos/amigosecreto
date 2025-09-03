@@ -1,0 +1,12 @@
+* { box-sizing: border-box; font-family: Arial, sans-serif; }
+body { background:#f5f7fb; margin:0; padding:20px; color:#222; }
+.container { max-width:640px; margin:24px auto; background:#fff; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
+h1 { margin:0 0 12px 0; }
+.controls { display:flex; gap:8px; margin-bottom:12px; }
+.controls input { flex:1; padding:10px; border:1px solid #ddd; border-radius:6px; }
+.controls button { padding:10px 14px; border:none; border-radius:6px; cursor:pointer; }
+#btnAdicionar { background:#2d9cdb; color:#fff; }
+#btnSortear { background:#27ae60; color:#fff; }
+ul { padding-left:20px; margin:0 0 12px 0; }
+li { padding:6px 0; border-bottom:1px dashed #eee; }
+.resultado { margin-top:12px; padding:12px; background:#fff3cd; border-radius:6px; border:1px solid #ffeeba; }
