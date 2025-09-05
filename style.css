@@ -1,12 +1,77 @@
-* { box-sizing: border-box; font-family: Arial, sans-serif; }
-body { background:#f5f7fb; margin:0; padding:20px; color:#222; }
-.container { max-width:640px; margin:24px auto; background:#fff; padding:20px; border-radius:8px; box-shadow:0 6px 18px rgba(0,0,0,0.06); }
-h1 { margin:0 0 12px 0; }
-.controls { display:flex; gap:8px; margin-bottom:12px; }
-.controls input { flex:1; padding:10px; border:1px solid #ddd; border-radius:6px; }
-.controls button { padding:10px 14px; border:none; border-radius:6px; cursor:pointer; }
-#btnAdicionar { background:#2d9cdb; color:#fff; }
-#btnSortear { background:#27ae60; color:#fff; }
-ul { padding-left:20px; margin:0 0 12px 0; }
-li { padding:6px 0; border-bottom:1px dashed #eee; }
-.resultado { margin-top:12px; padding:12px; background:#fff3cd; border-radius:6px; border:1px solid #ffeeba; }
+* { 
+  box-sizing: border-box; 
+  font-family: Arial, sans-serif; 
+}
+
+body { 
+  background: url("amigo-secreto.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0; 
+  padding: 40px; 
+  color: #222; 
+}
+
+
+.container { 
+  max-width: 640px; 
+  margin: 40px auto;  
+  background: #fff; 
+  padding: 30px;      
+  border-radius: 12px; 
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15); 
+}
+
+
+h1 { 
+  margin: 0 0 20px 0; 
+}
+
+
+.controls { 
+  display: flex; 
+  gap: 16px;           
+  margin-bottom: 20px; 
+}
+
+.controls input { 
+  flex: 1; 
+  padding: 12px; 
+  border: 1px solid #ddd; 
+  border-radius: 6px; 
+}
+
+.controls button { 
+  padding: 12px 20px; 
+  border: none; 
+  border-radius: 6px; 
+  cursor: pointer; 
+  font-weight: bold;
+}
+
+#btnAdicionar { 
+  background: #29d9cb; 
+  color: #fff; 
+}
+
+#btnSortear { 
+  background: #27ae60; 
+  color: #fff; 
+}
+
+ul { 
+  padding-left: 20px; 
+  margin: 0 0 20px 0; 
+}
+
+li { 
+  padding: 8px 0; 
+  border-bottom: 1px dashed #eee; 
+}
+
+.resultado { 
+  margin-top: 20px; 
+  padding: 16px; 
+  background: #fff3cd; 
+  border-radius: 6px; 
+  border: 1px solid #ffeeba; 
+}
