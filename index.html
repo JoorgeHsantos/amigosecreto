@@ -1,32 +1,103 @@
-<!doctype html>
-<html lang="pt-BR">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Amigo Secreto</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <main class="container">
-    <h1>Amigo Secreto</h1>
+* { 
+  box-sizing: border-box; 
+  font-family: Arial, sans-serif; 
+}
 
-    <div class="controls">
-      <input id="amigo" type="text" placeholder="Digite o nome do amigo" />
-      <button id="btnAdicionar">Adicionar</button>
-      <button id="btnSortear">Sortear Amigo</button>
-    </div>
-<img src="amigo-secreto.png" alt="Logo Amigo Secreto" width="150">
-    <section>
-      <h2>Lista de amigos</h2>
-      <ul id="listaAmigos"></ul>
-    </section>
+body { 
+  background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
+              url("fundo.png") no-repeat center center fixed;
+  background-size: cover;
+  margin: 0; 
+  padding: 40px; 
+  color: #222; 
+}
 
-    <div id="resultado" class="resultado"></div>
-  <main class="container">
-    
-    <h1>Amigo Secreto</h1>
+/* Caixa principal */
+.container { 
+  max-width: 640px; 
+  margin: 40px auto; 
+  background: #fff; 
+  padding: 30px; 
+  border-radius: 12px; 
+  box-shadow: 0 8px 24px rgba(0,0,0,0.15); 
+  text-align: center;
+}
 
+/* Logo */
+.logo {
+  width: 120px;
+  margin-bottom: 16px;
+}
 
-  <script src="app.js"></script>
-</body>
-</html>
+/* Título */
+h1 { 
+  margin: 0 0 20px 0; 
+  font-size: 28px;
+  color: #333;
+}
+
+/* Subtítulos */
+h2 {
+  margin-top: 24px;
+  margin-bottom: 12px;
+  font-size: 20px;
+  color: #444;
+  text-align: left;
+}
+
+/* Área de controles */
+.controls { 
+  display: flex; 
+  gap: 16px; 
+  margin-bottom: 20px; 
+}
+
+.controls input { 
+  flex: 1; 
+  padding: 12px; 
+  border: 1px solid #ddd; 
+  border-radius: 6px; 
+}
+
+.controls button { 
+  padding: 12px 20px; 
+  border: none; 
+  border-radius: 6px; 
+  cursor: pointer; 
+  font-weight: bold;
+  transition: 0.2s;
+}
+
+.controls button:hover {
+  opacity: 0.9;
+}
+
+#btnAdicionar { 
+  background: #29d9cb; 
+  color: #fff; 
+}
+
+#btnSortear { 
+  background: #27ae60; 
+  color: #fff; 
+}
+
+ul { 
+  padding-left: 20px; 
+  margin: 0 0 20px 0; 
+  text-align: left;
+}
+
+li { 
+  padding: 8px 0; 
+  border-bottom: 1px dashed #eee; 
+}
+
+.resultado { 
+  margin-top: 20px; 
+  padding: 16px; 
+  background: #fff3cd; 
+  border-radius: 6px; 
+  border: 1px solid #ffeeba; 
+  font-weight: bold;
+}
