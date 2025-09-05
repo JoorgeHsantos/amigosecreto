@@ -5,12 +5,13 @@
 
 body { 
   background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6)),
-              url("amigo-secreto.png") no-repeat center center fixed;
+              url("fundo.png") no-repeat center center fixed;
   background-size: cover;
   margin: 0; 
   padding: 40px; 
   color: #222; 
 }
+
 
 .container { 
   max-width: 640px; 
@@ -22,16 +23,19 @@ body {
   text-align: center;
 }
 
+
 .logo {
   width: 120px;
   margin-bottom: 16px;
 }
+
 
 h1 { 
   margin: 0 0 20px 0; 
   font-size: 28px;
   color: #333;
 }
+
 
 h2 {
   margin-top: 24px;
@@ -41,6 +45,7 @@ h2 {
   text-align: left;
 }
 
+/* Área de controles */
 .controls { 
   display: flex; 
   gap: 16px; 
